@@ -21,10 +21,22 @@ resource "google_compute_instance" "hubmud" {
         source = "installations.sh"
         destination = "~/installations.sh"
         connection {
-        	type = "ssh"
+            type = "ssh"
             user = "ubuntu"
-		    private_key = "${file("~/.ssh/google_compute_engine")}"
-    	}
+            private_key = "${file("~/.ssh/google_compute_engine")}"
+        }
+    }
+
+    provisioner "remote-exec" {
+        inline = [
+          "chmod +x ~/installations.sh"
+        ]
+        connection {
+            type = "ssh"
+            user = "ubuntu"
+            private_key = "${file("~/.ssh/google_compute_engine")}"
+        }
+
     }
 
     service_account {
