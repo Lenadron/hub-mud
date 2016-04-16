@@ -4,7 +4,9 @@ resource "google_compute_instance" "hubmud" {
     machine_type = "f1-micro"
     
     tags = ["buildserver", "jenkins", "central", "terraformer"]
-    zone = "us-central1-a"
+    tags = [ "http-server" ]
+    
+    zone = "us-central1-b"
     
     disk {
         image = "ubuntu-1404-trusty-v20160406"
@@ -12,14 +14,20 @@ resource "google_compute_instance" "hubmud" {
 
     network_interface {
         network = "default"
-        access_config {
-        
-        }
+        access_config {}
+    }
+
+    provisioner "file" {
+        source = "scripts/installations.sh"
+        destination = "~/installations.sh"
+        connection {
+        	type = "ssh"
+            user = "ubuntu"
+		    private_key = "${file("~/.ssh/google_compute_engine")}"
+    	}
     }
 
     service_account {
         scopes = ["userinfo-email", "compute-ro", "storage-ro"]
     }
-
-    tags = [ "http-server" ]
 }
