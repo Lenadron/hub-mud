@@ -1,91 +1,82 @@
-2016/04/16 11:20:05 [INFO] Terraform version: 0.6.14  c7e5b24531e73aae1eec2f7530d968ac8c69804c
-2016/04/16 11:20:05 [DEBUG] Detected home directory from env var: /Users/adron
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: atlas = /usr/local/terraform_0_6_14/terraform-provider-atlas
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: aws = /usr/local/terraform_0_6_14/terraform-provider-aws
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: azure = /usr/local/terraform_0_6_14/terraform-provider-azure
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: azurerm = /usr/local/terraform_0_6_14/terraform-provider-azurerm
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: chef = /usr/local/terraform_0_6_14/terraform-provider-chef
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: clc = /usr/local/terraform_0_6_14/terraform-provider-clc
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: cloudflare = /usr/local/terraform_0_6_14/terraform-provider-cloudflare
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: cloudstack = /usr/local/terraform_0_6_14/terraform-provider-cloudstack
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: consul = /usr/local/terraform_0_6_14/terraform-provider-consul
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: datadog = /usr/local/terraform_0_6_14/terraform-provider-datadog
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: digitalocean = /usr/local/terraform_0_6_14/terraform-provider-digitalocean
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: dme = /usr/local/terraform_0_6_14/terraform-provider-dme
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: dnsimple = /usr/local/terraform_0_6_14/terraform-provider-dnsimple
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: docker = /usr/local/terraform_0_6_14/terraform-provider-docker
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: dyn = /usr/local/terraform_0_6_14/terraform-provider-dyn
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: github = /usr/local/terraform_0_6_14/terraform-provider-github
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: google = /usr/local/terraform_0_6_14/terraform-provider-google
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: heroku = /usr/local/terraform_0_6_14/terraform-provider-heroku
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: influxdb = /usr/local/terraform_0_6_14/terraform-provider-influxdb
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: mailgun = /usr/local/terraform_0_6_14/terraform-provider-mailgun
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: mysql = /usr/local/terraform_0_6_14/terraform-provider-mysql
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: null = /usr/local/terraform_0_6_14/terraform-provider-null
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: openstack = /usr/local/terraform_0_6_14/terraform-provider-openstack
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: packet = /usr/local/terraform_0_6_14/terraform-provider-packet
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: postgresql = /usr/local/terraform_0_6_14/terraform-provider-postgresql
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: powerdns = /usr/local/terraform_0_6_14/terraform-provider-powerdns
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: rundeck = /usr/local/terraform_0_6_14/terraform-provider-rundeck
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: statuscake = /usr/local/terraform_0_6_14/terraform-provider-statuscake
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: template = /usr/local/terraform_0_6_14/terraform-provider-template
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: terraform = /usr/local/terraform_0_6_14/terraform-provider-terraform
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: tls = /usr/local/terraform_0_6_14/terraform-provider-tls
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: triton = /usr/local/terraform_0_6_14/terraform-provider-triton
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: ultradns = /usr/local/terraform_0_6_14/terraform-provider-ultradns
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: vcd = /usr/local/terraform_0_6_14/terraform-provider-vcd
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: vsphere = /usr/local/terraform_0_6_14/terraform-provider-vsphere
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: chef = /usr/local/terraform_0_6_14/terraform-provisioner-chef
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: file = /usr/local/terraform_0_6_14/terraform-provisioner-file
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: local-exec = /usr/local/terraform_0_6_14/terraform-provisioner-local-exec
-2016/04/16 11:20:05 [DEBUG] Discovered plugin: remote-exec = /usr/local/terraform_0_6_14/terraform-provisioner-remote-exec
-2016/04/16 11:20:05 [DEBUG] Detected home directory from env var: /Users/adron
-2016/04/16 11:20:05 [DEBUG] Attempting to open CLI config file: /Users/adron/.terraformrc
-2016/04/16 11:20:05 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
-2016/04/16 11:20:05 [DEBUG] Detected home directory from env var: /Users/adron
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ConfigTransformer:
+2016/04/16 12:46:35 [INFO] Terraform version: 0.6.14  c7e5b24531e73aae1eec2f7530d968ac8c69804c
+2016/04/16 12:46:35 [DEBUG] Detected home directory from env var: /Users/adron
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: atlas = /usr/local/terraform_0_6_14/terraform-provider-atlas
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: aws = /usr/local/terraform_0_6_14/terraform-provider-aws
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: azure = /usr/local/terraform_0_6_14/terraform-provider-azure
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: azurerm = /usr/local/terraform_0_6_14/terraform-provider-azurerm
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: chef = /usr/local/terraform_0_6_14/terraform-provider-chef
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: clc = /usr/local/terraform_0_6_14/terraform-provider-clc
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: cloudflare = /usr/local/terraform_0_6_14/terraform-provider-cloudflare
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: cloudstack = /usr/local/terraform_0_6_14/terraform-provider-cloudstack
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: consul = /usr/local/terraform_0_6_14/terraform-provider-consul
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: datadog = /usr/local/terraform_0_6_14/terraform-provider-datadog
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: digitalocean = /usr/local/terraform_0_6_14/terraform-provider-digitalocean
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: dme = /usr/local/terraform_0_6_14/terraform-provider-dme
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: dnsimple = /usr/local/terraform_0_6_14/terraform-provider-dnsimple
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: docker = /usr/local/terraform_0_6_14/terraform-provider-docker
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: dyn = /usr/local/terraform_0_6_14/terraform-provider-dyn
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: github = /usr/local/terraform_0_6_14/terraform-provider-github
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: google = /usr/local/terraform_0_6_14/terraform-provider-google
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: heroku = /usr/local/terraform_0_6_14/terraform-provider-heroku
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: influxdb = /usr/local/terraform_0_6_14/terraform-provider-influxdb
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: mailgun = /usr/local/terraform_0_6_14/terraform-provider-mailgun
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: mysql = /usr/local/terraform_0_6_14/terraform-provider-mysql
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: null = /usr/local/terraform_0_6_14/terraform-provider-null
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: openstack = /usr/local/terraform_0_6_14/terraform-provider-openstack
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: packet = /usr/local/terraform_0_6_14/terraform-provider-packet
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: postgresql = /usr/local/terraform_0_6_14/terraform-provider-postgresql
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: powerdns = /usr/local/terraform_0_6_14/terraform-provider-powerdns
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: rundeck = /usr/local/terraform_0_6_14/terraform-provider-rundeck
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: statuscake = /usr/local/terraform_0_6_14/terraform-provider-statuscake
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: template = /usr/local/terraform_0_6_14/terraform-provider-template
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: terraform = /usr/local/terraform_0_6_14/terraform-provider-terraform
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: tls = /usr/local/terraform_0_6_14/terraform-provider-tls
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: triton = /usr/local/terraform_0_6_14/terraform-provider-triton
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: ultradns = /usr/local/terraform_0_6_14/terraform-provider-ultradns
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: vcd = /usr/local/terraform_0_6_14/terraform-provider-vcd
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: vsphere = /usr/local/terraform_0_6_14/terraform-provider-vsphere
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: chef = /usr/local/terraform_0_6_14/terraform-provisioner-chef
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: file = /usr/local/terraform_0_6_14/terraform-provisioner-file
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: local-exec = /usr/local/terraform_0_6_14/terraform-provisioner-local-exec
+2016/04/16 12:46:35 [DEBUG] Discovered plugin: remote-exec = /usr/local/terraform_0_6_14/terraform-provisioner-remote-exec
+2016/04/16 12:46:35 [DEBUG] Detected home directory from env var: /Users/adron
+2016/04/16 12:46:35 [DEBUG] Attempting to open CLI config file: /Users/adron/.terraformrc
+2016/04/16 12:46:35 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2016/04/16 12:46:35 [DEBUG] Detected home directory from env var: /Users/adron
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ConfigTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.OrphanTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.OrphanTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProviderTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProvisionerTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.VertexTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProvisionerTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -94,7 +85,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.FlattenTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.VertexTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -103,7 +94,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProxyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.FlattenTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -112,7 +103,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProxyTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -121,7 +112,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -130,304 +121,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DestroyTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  google_compute_instance.hubmud (destroy)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneNoopTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProviderTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-root
-  provider.google (close)
-  provisioner.file (close)
-  provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] Starting graph walk: walkInput
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvider
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: evaluating
-2016/04/16 11:20:06 [DEBUG] Starting plugin: /usr/local/terraform_0_6_14/terraform-provider-google []string{"/usr/local/terraform_0_6_14/terraform-provider-google"}
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [DEBUG] Starting plugin: /usr/local/terraform_0_6_14/terraform-provisioner-file []string{"/usr/local/terraform_0_6_14/terraform-provisioner-file"}
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [DEBUG] Waiting for RPC address for: /usr/local/terraform_0_6_14/terraform-provider-google
-2016/04/16 11:20:06 [DEBUG] Waiting for RPC address for: /usr/local/terraform_0_6_14/terraform-provisioner-file
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 Plugin address: unix /var/folders/kl/1vw865bd33ncj0m8bclc37bc0000gn/T/tf-plugin211565525
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] terraform-provisioner-file: 2016/04/16 11:20:06 Plugin address: unix /var/folders/kl/1vw865bd33ncj0m8bclc37bc0000gn/T/tf-plugin822484931
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInputProvider
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] Starting plugin: /usr/local/terraform_0_6_14/terraform-provisioner-remote-exec []string{"/usr/local/terraform_0_6_14/terraform-provisioner-remote-exec"}
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] Waiting for RPC address for: /usr/local/terraform_0_6_14/terraform-provisioner-remote-exec
-2016/04/16 11:20:06 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 11:20:06 Plugin address: unix /var/folders/kl/1vw865bd33ncj0m8bclc37bc0000gn/T/tf-plugin186007263
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TaintedTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ResourceCountTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkInput] Entering eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvider
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.file (close)
-2016/04/16 11:20:06 [TRACE] [walkInput] Exiting eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.root: walking
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ConfigTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.OrphanTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProviderTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DisableProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -436,52 +130,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.VertexTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.FlattenTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProxyTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DestroyTransformer:
 
 google_compute_instance.hubmud
   google_compute_instance.hubmud (destroy tainted)
@@ -500,343 +149,7 @@ google_compute_instance.hubmud (destroy)
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneNoopTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProviderTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-root
-  provider.google (close)
-  provisioner.file (close)
-  provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] Starting graph walk: walkValidate
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvider
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalValidateProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalValidateCount
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TaintedTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalValidateCount
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ResourceCountTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalValidateResource
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvisioner
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalValidateProvisioner
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvisioner
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalValidateProvisioner
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): evaluating
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvider
-2016/04/16 11:20:06 [TRACE] [walkValidate] Entering eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provider.google (close)
-2016/04/16 11:20:06 [TRACE] [walkValidate] Exiting eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.root: walking
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ConfigTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.OrphanTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProviderTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DisableProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProvisionerTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.VertexTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.FlattenTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProxyTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
 
 google_compute_instance.hubmud
   google_compute_instance.hubmud (destroy tainted)
@@ -855,299 +168,212 @@ google_compute_instance.hubmud (destroy)
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneNoopTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProviderTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 root
   provider.google (close)
   provisioner.file (close)
   provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] Starting graph walk: walkRefresh
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvider
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalConfigProvider
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Requesting Google token...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO]   -- Email: hub-mud-terraformer@adrons-universe.iam.gserviceaccount.com
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO]   -- Scopes: [https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/ndev.clouddns.readwrite https://www.googleapis.com/auth/devstorage.full_control]
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO]   -- Private Key Length: 1708
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating GCE client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating GKE client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating Google Cloud DNS client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating Google Storage Client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating Google SqlAdmin Client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instatiating Google Pubsub Client...
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TaintedTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalReadStateTainted
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalRefresh
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalWriteStateTainted
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+2016/04/16 12:46:35 [DEBUG] Starting graph walk: walkInput
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: evaluating
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [DEBUG] Starting plugin: /usr/local/terraform_0_6_14/terraform-provisioner-file []string{"/usr/local/terraform_0_6_14/terraform-provisioner-file"}
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: evaluating
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: evaluating
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [DEBUG] Starting plugin: /usr/local/terraform_0_6_14/terraform-provider-google []string{"/usr/local/terraform_0_6_14/terraform-provider-google"}
+2016/04/16 12:46:35 [DEBUG] Waiting for RPC address for: /usr/local/terraform_0_6_14/terraform-provisioner-file
+2016/04/16 12:46:35 [DEBUG] Waiting for RPC address for: /usr/local/terraform_0_6_14/terraform-provider-google
+2016/04/16 12:46:35 [DEBUG] terraform-provisioner-file: 2016/04/16 12:46:35 Plugin address: unix /var/folders/kl/1vw865bd33ncj0m8bclc37bc0000gn/T/tf-plugin332755216
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] Starting plugin: /usr/local/terraform_0_6_14/terraform-provisioner-remote-exec []string{"/usr/local/terraform_0_6_14/terraform-provisioner-remote-exec"}
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 Plugin address: unix /var/folders/kl/1vw865bd33ncj0m8bclc37bc0000gn/T/tf-plugin059666531
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInputProvider
+2016/04/16 12:46:35 [DEBUG] Waiting for RPC address for: /usr/local/terraform_0_6_14/terraform-provisioner-remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
+2016/04/16 12:46:35 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 12:46:35 Plugin address: unix /var/folders/kl/1vw865bd33ncj0m8bclc37bc0000gn/T/tf-plugin995994690
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ResourceCountTransformer:
 
 google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
 
 google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
 
 google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalReadState
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalRefresh
-2016/04/16 11:20:06 [DEBUG] refresh: google_compute_instance.hubmud: no state, not refreshing
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalWriteState
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvider
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): evaluating
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): walking
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Entering eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [TRACE] [walkRefresh] Exiting eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.root: walking
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ConfigTransformer:
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): evaluating
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [TRACE] [walkInput] Entering eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provider.google (close)
+2016/04/16 12:46:35 [TRACE] [walkInput] Exiting eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.root: walking
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ConfigTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.OrphanTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.OrphanTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProviderTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DisableProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProvisionerTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1156,7 +382,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.VertexTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.VertexTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1165,7 +391,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.FlattenTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.FlattenTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1174,7 +400,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProxyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProxyTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1183,7 +409,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1192,7 +418,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1201,7 +427,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DestroyTransformer:
 
 google_compute_instance.hubmud
   google_compute_instance.hubmud (destroy tainted)
@@ -1220,330 +446,7 @@ google_compute_instance.hubmud (destroy)
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneNoopTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProviderTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provider.google (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-provisioner.file
-provisioner.file (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-provisioner.remote-exec
-provisioner.remote-exec (close)
-  google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-root
-  provider.google (close)
-  provisioner.file (close)
-  provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] Starting graph walk: walkPlanDestroy
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: evaluating
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: evaluating
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: evaluating
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvider
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): evaluating
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TaintedTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): evaluating
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ResourceCountTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
-
-google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalReadState
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalDiffDestroy
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCheckPreventDestroy
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalWriteDiff
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google (close): evaluating
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvider
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): walking
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: provider.google (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file (close): evaluating
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provider.google (close)
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Entering eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
-2016/04/16 11:20:06 [TRACE] [walkPlanDestroy] Exiting eval tree: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.file (close)
-2016/04/16 11:20:06 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] vertex root.root: walking
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ConfigTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.OrphanTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProviderTransformer:
-
-google_compute_instance.hubmud
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DisableProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProvisionerTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.VertexTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.FlattenTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProxyTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneProviderTransformer:
-
-google_compute_instance.hubmud
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-provider.google
-provisioner.file
-provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
 
 google_compute_instance.hubmud
   google_compute_instance.hubmud (destroy tainted)
@@ -1562,162 +465,215 @@ google_compute_instance.hubmud (destroy)
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneNoopTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProviderTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 root
   provider.google (close)
   provisioner.file (close)
   provisioner.remote-exec (close)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ConfigTransformer:
+2016/04/16 12:46:35 [DEBUG] Starting graph walk: walkValidate
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalValidateProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalValidateCount
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalValidateResource
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvisioner
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalValidateProvisioner
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvisioner
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalValidateProvisioner
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [TRACE] [walkValidate] Entering eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/16 12:46:35 [TRACE] [walkValidate] Exiting eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.root: walking
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ConfigTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.OrphanTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.OrphanTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProviderTransformer:
 
 google_compute_instance.hubmud
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DisableProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
 
 google_compute_instance.hubmud
   provider.google
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProvisionerTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1726,7 +682,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.VertexTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.VertexTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1735,7 +691,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.FlattenTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.FlattenTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1744,7 +700,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.ProxyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProxyTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1753,7 +709,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1762,7 +718,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneProviderTransformer:
 
 google_compute_instance.hubmud
   provider.google
@@ -1771,7 +727,7 @@ google_compute_instance.hubmud
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.DestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DestroyTransformer:
 
 google_compute_instance.hubmud
   google_compute_instance.hubmud (destroy tainted)
@@ -1790,208 +746,1020 @@ google_compute_instance.hubmud (destroy)
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
 
 google_compute_instance.hubmud
   google_compute_instance.hubmud (destroy tainted)
+  google_compute_instance.hubmud (destroy)
   provider.google
   provisioner.file
   provisioner.remote-exec
 google_compute_instance.hubmud (destroy tainted)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneNoopTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+google_compute_instance.hubmud
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.remote-exec
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
 
 google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
-  provider.google
-  provisioner.file
-  provisioner.remote-exec
-google_compute_instance.hubmud (destroy tainted)
   provider.google
   provisioner.file
   provisioner.remote-exec
 provider.google
 provider.google (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
   provider.google
 provisioner.file
 provisioner.file (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 provisioner.remote-exec
 provisioner.remote-exec (close)
   google_compute_instance.hubmud
-  google_compute_instance.hubmud (destroy tainted)
 root
   provider.google (close)
   provisioner.file (close)
   provisioner.remote-exec (close)
-2016/04/16 11:20:06 [DEBUG] Starting graph walk: walkDestroy
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provider.google: evaluating
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Entering eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvider
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.remote-exec: evaluating
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: walking
-2016/04/16 11:20:06 [DEBUG] vertex root.provisioner.file: evaluating
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Entering eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Entering eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInitProvisioner
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Exiting eval tree: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Exiting eval tree: provisioner.file
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalConfigProvider
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Requesting Google token...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO]   -- Email: hub-mud-terraformer@adrons-universe.iam.gserviceaccount.com
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO]   -- Scopes: [https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/ndev.clouddns.readwrite https://www.googleapis.com/auth/devstorage.full_control]
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO]   -- Private Key Length: 1708
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating GCE client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating GKE client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating Google Cloud DNS client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating Google Storage Client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instantiating Google SqlAdmin Client...
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Instatiating Google Pubsub Client...
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Exiting eval tree: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex provider.google (close), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provider.google
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.file
-2016/04/16 11:20:06 [DEBUG] vertex google_compute_instance.hubmud (destroy tainted), got dep: provisioner.remote-exec
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): evaluating
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Entering eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInterpolate
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Exiting eval tree: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (destroy tainted): expanding/walking dynamic subgraph
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TaintedTransformer:
+2016/04/16 12:46:35 [DEBUG] Starting graph walk: walkRefresh
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: evaluating
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: evaluating
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: evaluating
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalConfigProvider
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Requesting Google token...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Email: hub-mud-terraformer@adrons-universe.iam.gserviceaccount.com
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Scopes: [https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/ndev.clouddns.readwrite https://www.googleapis.com/auth/devstorage.full_control]
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Private Key Length: 1708
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating GCE client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating GKE client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google Cloud DNS client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google Storage Client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google SqlAdmin Client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instatiating Google Pubsub Client...
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ResourceCountTransformer:
 
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.TargetsTransformer:
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
 
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [TRACE] Graph after step *terraform.RootTransformer:
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
 
-google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): walking
-2016/04/16 11:20:06 [DEBUG] vertex root.google_compute_instance.hubmud (tainted #1): evaluating
-2016/04/16 11:20:06 [TRACE] [walkDestroy] Entering eval tree: google_compute_instance.hubmud (tainted #1)
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalInstanceInfo
-2016/04/16 11:20:06 [DEBUG] root: eval: terraform.EvalNoop
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalOpFilter
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalSequence
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalGetProvider
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalReadStateTainted
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalDiffDestroy
-2016/04/16 11:20:06 [DEBUG] root: eval: *terraform.EvalApply
-2016/04/16 11:20:06 [DEBUG] apply: google_compute_instance.hubmud: executing Apply
-2016/04/16 11:20:06 [DEBUG] terraform-provider-google: 2016/04/16 11:20:06 [INFO] Requesting instance deletion: hubmud
-2016/04/16 11:20:07 [DEBUG] terraform-provider-google: 2016/04/16 11:20:07 [DEBUG] Waiting for state to become: [DONE]
-2016/04/16 11:20:11 [DEBUG] vertex root, waiting for: provisioner.remote-exec (close)
-2016/04/16 11:20:11 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud (destroy tainted)
-2016/04/16 11:20:11 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
-2016/04/16 11:20:11 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
-2016/04/16 11:20:11 [DEBUG] vertex google_compute_instance.hubmud, waiting for: google_compute_instance.hubmud (destroy tainted)
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalRefresh
+2016/04/16 12:46:35 [DEBUG] refresh: google_compute_instance.hubmud: no state, not refreshing
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalWriteState
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): evaluating
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Entering eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [TRACE] [walkRefresh] Exiting eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.root: walking
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.VertexTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+google_compute_instance.hubmud
+  google_compute_instance.hubmud (destroy tainted)
+  google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy tainted)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+google_compute_instance.hubmud
+  google_compute_instance.hubmud (destroy tainted)
+  google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy tainted)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+root
+  provider.google (close)
+  provisioner.file (close)
+  provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] Starting graph walk: walkPlan
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: evaluating
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: evaluating
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: evaluating
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalConfigProvider
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Requesting Google token...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Email: hub-mud-terraformer@adrons-universe.iam.gserviceaccount.com
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Scopes: [https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/ndev.clouddns.readwrite https://www.googleapis.com/auth/devstorage.full_control]
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Private Key Length: 1708
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating GCE client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating GKE client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google Cloud DNS client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google Storage Client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google SqlAdmin Client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instatiating Google Pubsub Client...
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalDiff
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCheckPreventDestroy
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalIgnoreChanges
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalWriteState
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalDiffTainted
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalWriteDiff
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google (close): evaluating
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provider.google (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
+2016/04/16 12:46:35 [TRACE] [walkPlan] Entering eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [TRACE] [walkPlan] Exiting eval tree: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.file (close)
+2016/04/16 12:46:35 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] vertex root.root: walking
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.VertexTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+google_compute_instance.hubmud
+  google_compute_instance.hubmud (destroy tainted)
+  google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy tainted)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+google_compute_instance.hubmud
+  google_compute_instance.hubmud (destroy tainted)
+  google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy tainted)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+root
+  provider.google (close)
+  provisioner.file (close)
+  provisioner.remote-exec (close)
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+google_compute_instance.hubmud
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.VertexTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+google_compute_instance.hubmud
+  google_compute_instance.hubmud (destroy tainted)
+  google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy tainted)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+google_compute_instance.hubmud
+  google_compute_instance.hubmud (destroy tainted)
+  google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy tainted)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+google_compute_instance.hubmud (destroy)
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.remote-exec
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
+
+google_compute_instance.hubmud
+  provider.google
+  provisioner.file
+  provisioner.remote-exec
+provider.google
+provider.google (close)
+  google_compute_instance.hubmud
+  provider.google
+provisioner.file
+provisioner.file (close)
+  google_compute_instance.hubmud
+provisioner.remote-exec
+provisioner.remote-exec (close)
+  google_compute_instance.hubmud
+root
+  provider.google (close)
+  provisioner.file (close)
+  provisioner.remote-exec (close)
+2016/04/16 12:46:35 [DEBUG] Starting graph walk: walkApply
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.file: evaluating
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.provider.google: evaluating
+2016/04/16 12:46:35 [TRACE] [walkApply] Entering eval tree: provisioner.file
+2016/04/16 12:46:35 [TRACE] [walkApply] Entering eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/16 12:46:35 [DEBUG] vertex root.provisioner.remote-exec: evaluating
+2016/04/16 12:46:35 [TRACE] [walkApply] Entering eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInitProvisioner
+2016/04/16 12:46:35 [TRACE] [walkApply] Exiting eval tree: provisioner.file
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/16 12:46:35 [TRACE] [walkApply] Exiting eval tree: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalConfigProvider
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Requesting Google token...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Email: hub-mud-terraformer@adrons-universe.iam.gserviceaccount.com
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Scopes: [https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/ndev.clouddns.readwrite https://www.googleapis.com/auth/devstorage.full_control]
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO]   -- Private Key Length: 1708
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating GCE client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating GKE client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google Cloud DNS client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google Storage Client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instantiating Google SqlAdmin Client...
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [INFO] Instatiating Google Pubsub Client...
+2016/04/16 12:46:35 [TRACE] [walkApply] Exiting eval tree: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provider.google
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.file
+2016/04/16 12:46:35 [DEBUG] vertex google_compute_instance.hubmud, got dep: provisioner.remote-exec
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkApply] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/16 12:46:35 [TRACE] [walkApply] Exiting eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: expanding/walking dynamic subgraph
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [TRACE] Graph after step *terraform.RootTransformer:
+
+google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: walking
+2016/04/16 12:46:35 [DEBUG] vertex root.google_compute_instance.hubmud: evaluating
+2016/04/16 12:46:35 [TRACE] [walkApply] Entering eval tree: google_compute_instance.hubmud
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalReadDiff
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/16 12:46:35 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalDiff
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalIgnoreChanges
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalReadDiff
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalCompareDiff
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/16 12:46:35 [DEBUG] root: eval: *terraform.EvalApply
+2016/04/16 12:46:35 [DEBUG] apply: google_compute_instance.hubmud: executing Apply
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [DEBUG] Loading zone: us-central1-b
+2016/04/16 12:46:35 [DEBUG] terraform-provider-google: 2016/04/16 12:46:35 [DEBUG] Loading machine type: f1-micro
+2016/04/16 12:46:36 [DEBUG] terraform-provider-google: 2016/04/16 12:46:36 [INFO] Requesting instance creation
+2016/04/16 12:46:37 [DEBUG] terraform-provider-google: 2016/04/16 12:46:37 [DEBUG] Waiting for state to become: [DONE]
+2016/04/16 12:46:40 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 12:46:40 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 12:46:40 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 12:46:40 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
