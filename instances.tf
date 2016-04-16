@@ -19,7 +19,7 @@ resource "google_compute_instance" "hubmud" {
 
     provisioner "file" {
         source = "installations.sh"
-        destination = "~/installations.sh"
+        destination = "installations.sh"
         connection {
             type = "ssh"
             user = "ubuntu"
@@ -29,7 +29,9 @@ resource "google_compute_instance" "hubmud" {
 
     provisioner "remote-exec" {
         inline = [
-          "chmod +x ~/installations.sh"
+          "chmod +x ~/installations.sh",
+          "cd ~",
+          "./installations.sh"
         ]
         connection {
             type = "ssh"
