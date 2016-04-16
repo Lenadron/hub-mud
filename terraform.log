@@ -1760,3 +1760,12 @@ google_compute_instance.hubmud
 2016/04/16 14:15:11 [DEBUG] terraform-provider-google: 2016/04/16 14:15:11 [DEBUG] Loading machine type: f1-micro
 2016/04/16 14:15:12 [DEBUG] terraform-provider-google: 2016/04/16 14:15:12 [INFO] Requesting instance creation
 2016/04/16 14:15:13 [DEBUG] terraform-provider-google: 2016/04/16 14:15:13 [DEBUG] Waiting for state to become: [DONE]
+2016/04/16 14:15:16 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:16 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:16 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:16 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:21 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:21 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:21 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:21 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:23 [DEBUG] terraform-provider-google: 2016/04/16 14:15:23 [TRACE] Waiting 2s before next try
