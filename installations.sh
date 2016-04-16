@@ -22,9 +22,13 @@ sudo curl -O https://releases.hashicorp.com/packer/0.10.0/packer_0.10.0_linux_am
 # Unzip and install
 sudo unzip packer_0.10.0_linux_amd64.zip
 
-sudo echo '
-# Terraform & Packer Paths.
-export PATH=/home/terraform_0_6_14:/home/packer_0_10_0/:$PATH
-' >>/home/adron/.bashrc
+#Install Node.js via nvm
+cd ~
+
+curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
+nvm install stable
+nvm alias default stable
+
+sudo export PATH=/home/terraform_0_6_14:/home/packer_0_10_0/:$PATH
 
 sudo shutdown -r now
