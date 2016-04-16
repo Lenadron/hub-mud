@@ -1769,3 +1769,142 @@ google_compute_instance.hubmud
 2016/04/16 14:15:21 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
 2016/04/16 14:15:21 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
 2016/04/16 14:15:23 [DEBUG] terraform-provider-google: 2016/04/16 14:15:23 [TRACE] Waiting 2s before next try
+2016/04/16 14:15:25 [DEBUG] terraform-provider-google: 2016/04/16 14:15:25 [DEBUG] Got "RUNNING" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:25 [DEBUG] terraform-provider-google: 2016/04/16 14:15:25 [TRACE] Waiting 2s before next try
+2016/04/16 14:15:26 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:26 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:26 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:26 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:28 [DEBUG] terraform-provider-google: 2016/04/16 14:15:28 [DEBUG] Got "RUNNING" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:28 [DEBUG] terraform-provider-google: 2016/04/16 14:15:28 [TRACE] Waiting 2s before next try
+2016/04/16 14:15:30 [DEBUG] terraform-provider-google: 2016/04/16 14:15:30 [DEBUG] Got "RUNNING" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:30 [DEBUG] terraform-provider-google: 2016/04/16 14:15:30 [TRACE] Waiting 2s before next try
+2016/04/16 14:15:31 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:31 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:31 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:31 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:32 [DEBUG] terraform-provider-google: 2016/04/16 14:15:32 [DEBUG] Got "RUNNING" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:32 [DEBUG] terraform-provider-google: 2016/04/16 14:15:32 [TRACE] Waiting 2s before next try
+2016/04/16 14:15:34 [DEBUG] terraform-provider-google: 2016/04/16 14:15:34 [DEBUG] Got "RUNNING" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:34 [DEBUG] terraform-provider-google: 2016/04/16 14:15:34 [TRACE] Waiting 3.2s before next try
+2016/04/16 14:15:36 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:36 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:36 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:36 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:38 [DEBUG] terraform-provider-google: 2016/04/16 14:15:38 [DEBUG] Got "RUNNING" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:38 [DEBUG] terraform-provider-google: 2016/04/16 14:15:38 [TRACE] Waiting 6.4s before next try
+2016/04/16 14:15:41 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:41 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:41 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:41 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:44 [DEBUG] terraform-provider-google: 2016/04/16 14:15:44 [DEBUG] Got "RUNNING" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:44 [DEBUG] terraform-provider-google: 2016/04/16 14:15:44 [TRACE] Waiting 10s before next try
+2016/04/16 14:15:46 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:46 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:46 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:46 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:51 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:51 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:51 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:51 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:54 [DEBUG] terraform-provider-google: 2016/04/16 14:15:54 [DEBUG] Got "DONE" when asking for operation "operation-1460841298975-530a09eb2d919-72979b16-866207f9"
+2016/04/16 14:15:55 [DEBUG] root: eval: *terraform.EvalWriteState
+2016/04/16 14:15:55 [DEBUG] root: eval: *terraform.EvalApplyProvisioners
+2016/04/16 14:15:55 [DEBUG] terraform-provisioner-file: 2016/04/16 14:15:55 connecting to TCP connection for SSH
+2016/04/16 14:15:56 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:56 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:15:56 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:15:56 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:00 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:00 connection error: dial tcp 104.154.91.87:22: getsockopt: connection refused
+2016/04/16 14:16:00 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:00 Retryable error: dial tcp 104.154.91.87:22: getsockopt: connection refused
+2016/04/16 14:16:01 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:01 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:01 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:01 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:03 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:03 connecting to TCP connection for SSH
+2016/04/16 14:16:03 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:03 connection error: dial tcp 104.154.91.87:22: getsockopt: connection refused
+2016/04/16 14:16:03 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:03 Retryable error: dial tcp 104.154.91.87:22: getsockopt: connection refused
+2016/04/16 14:16:06 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:06 connecting to TCP connection for SSH
+2016/04/16 14:16:06 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:06 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:06 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:06 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:09 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:09 connection error: dial tcp 104.154.91.87:22: getsockopt: connection refused
+2016/04/16 14:16:09 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:09 Retryable error: dial tcp 104.154.91.87:22: getsockopt: connection refused
+2016/04/16 14:16:11 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:11 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:11 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:11 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:12 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:12 connecting to TCP connection for SSH
+2016/04/16 14:16:12 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:12 handshaking with SSH
+2016/04/16 14:16:12 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:12 [DEBUG] Telling SSH config to forward to agent
+2016/04/16 14:16:12 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:12 [DEBUG] Setting up a session to request agent forwarding
+2016/04/16 14:16:12 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:12 opening new ssh session
+2016/04/16 14:16:16 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:16 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:16 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:16 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 [INFO] agent forwarding enabled
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 opening new ssh session
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 Starting remote scp process:  scp -vt .
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 Started SCP session, beginning transfers...
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 Copying input data into temporary file so we can read the length
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 Beginning file upload...
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 SCP session complete, closing stdin pipe.
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 Waiting for SSH session to complete.
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-file: 2016/04/16 14:16:16 scp stderr (length 33): Sink: C0644 696 installations.sh
+2016/04/16 14:16:16 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:16 connecting to TCP connection for SSH
+2016/04/16 14:16:17 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:17 handshaking with SSH
+2016/04/16 14:16:17 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:17 [DEBUG] Telling SSH config to forward to agent
+2016/04/16 14:16:17 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:17 [DEBUG] Setting up a session to request agent forwarding
+2016/04/16 14:16:17 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:17 opening new ssh session
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 [INFO] agent forwarding enabled
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 opening new ssh session
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 Starting remote scp process:  scp -vt /tmp
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 Started SCP session, beginning transfers...
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 Copying input data into temporary file so we can read the length
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 Beginning file upload...
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 SCP session complete, closing stdin pipe.
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 Waiting for SSH session to complete.
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 scp stderr (length 39): Sink: C0644 62 terraform_1298498081.sh
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 opening new ssh session
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 starting remote command: chmod 0777 /tmp/terraform_1298498081.sh
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 remote command exited with '0': chmod 0777 /tmp/terraform_1298498081.sh
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 opening new ssh session
+2016/04/16 14:16:18 [DEBUG] terraform-provisioner-remote-exec: 2016/04/16 14:16:18 starting remote command: /tmp/terraform_1298498081.sh
+2016/04/16 14:16:21 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:21 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:21 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:21 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:26 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:26 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:26 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:26 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:31 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:31 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:31 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:31 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:36 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:36 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:36 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:36 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:41 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:41 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:41 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:41 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:46 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:46 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:46 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:46 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:51 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:51 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:51 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:51 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:56 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/16 14:16:56 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:56 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:16:56 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:17:01 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:17:01 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:17:01 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/16 14:17:01 [DEBUG] vertex root, waiting for: provider.google (close)
