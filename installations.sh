@@ -27,8 +27,4 @@ sudo echo '
 export PATH=/home/terraform_0_6_14:/home/packer_0_10_0/:$PATH
 ' >>/home/adron/.bashrc
 
-source /home/adron/.bashrc
-
-# verify we're all set to terraform and packer.
-terraform
-packer
+sudo shutdown -r now
