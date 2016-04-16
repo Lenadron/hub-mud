@@ -18,9 +18,9 @@ unzip terraform_0.6.14_linux_amd64.zip
 cd ~/packer_0_10_0
 
 # Download Terraform.
-curl -O https://releases.hashicorp.com/packer/0.10.0/packer_0.10.0_darwin_amd64.zip
+curl -O https://releases.hashicorp.com/packer/0.10.0/packer_0.10.0_linux_amd64.zip
 # Unzip and install
-unzip packer_0.10.0_darwin_amd64.zip
+unzip packer_0.10.0_linux_amd64.zip
 
 echo '
 # Terraform & Packer Paths.
