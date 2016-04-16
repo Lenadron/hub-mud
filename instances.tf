@@ -18,7 +18,7 @@ resource "google_compute_instance" "hubmud" {
     }
 
     provisioner "file" {
-        source = "scripts/installations.sh"
+        source = "installations.sh"
         destination = "~/installations.sh"
         connection {
         	type = "ssh"
