@@ -18,27 +18,33 @@ resource "google_compute_instance" "hubmud" {
     }
 
     provisioner "file" {
-        source = "installations.sh"
-        destination = "installations.sh"
+        source = "scripts/run-remote.sh"
+        destination = "run-remote.sh"
         connection {
             type = "ssh"
-            user = "ubuntu"
+            user = "adron"
             private_key = "${file("~/.ssh/google_compute_engine")}"
         }
     }
 
     provisioner "remote-exec" {
         inline = [
-          "chmod +x ~/installations.sh",
-          "cd ~",
-          "./installations.sh"
+          "chmod +x run-remote.sh",
+          "./run-remote.sh"
         ]
         connection {
             type = "ssh"
-            user = "ubuntu"
+            user = "adron"
             private_key = "${file("~/.ssh/google_compute_engine")}"
         }
+    }
 
+    provisioner "local-exec" {
+        command = "./scripts/install-node-via-nvm.sh"
+    }
+
+    provisioner "local-exec" {
+        command = "./scripts/setup-bashrc.sh"
     }
 
     service_account {
