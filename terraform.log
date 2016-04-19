@@ -2185,3 +2185,99 @@ google_compute_instance.hubmud
 2016/04/18 21:35:10 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
 2016/04/18 21:35:10 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
 2016/04/18 21:35:10 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:15 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:15 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:15 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:15 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:15 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:20 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:20 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:20 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:20 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:20 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:25 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:25 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:25 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:25 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:25 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:30 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:30 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:30 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:30 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:30 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:35 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:35 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:35 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:35 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:35 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:40 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:40 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:40 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:40 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:40 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:45 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:45 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:45 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:45 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:45 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:49 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:49 remote command exited with '0': /tmp/terraform_1298498081.sh
+2016/04/18 21:35:49 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:49 opening new ssh session
+2016/04/18 21:35:49 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:49 Starting remote scp process:  scp -vt /tmp
+2016/04/18 21:35:49 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:49 Started SCP session, beginning transfers...
+2016/04/18 21:35:49 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:49 Copying input data into temporary file so we can read the length
+2016/04/18 21:35:49 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:49 Beginning file upload...
+2016/04/18 21:35:50 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:50 SCP session complete, closing stdin pipe.
+2016/04/18 21:35:50 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:50 Waiting for SSH session to complete.
+2016/04/18 21:35:50 [DEBUG] terraform-provisioner-remote-exec: 2016/04/18 21:35:50 scp stderr (length 38): Sink: C0644 0 terraform_1298498081.sh
+2016/04/18 21:35:50 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:35:50 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:50 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:50 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:50 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:55 [DEBUG] vertex provisioner.file (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:55 [DEBUG] vertex provider.google (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:55 [DEBUG] vertex provisioner.remote-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:55 [DEBUG] vertex provisioner.local-exec (close), waiting for: google_compute_instance.hubmud
+2016/04/18 21:35:55 [DEBUG] vertex root, waiting for: provider.google (close)
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalWriteDiff
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalWriteState
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalApplyPost
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalUpdateStateHook
+2016/04/18 21:36:00 [TRACE] [walkApply] Exiting eval tree: google_compute_instance.hubmud
+2016/04/18 21:36:00 [DEBUG] vertex provisioner.local-exec (close), got dep: google_compute_instance.hubmud
+2016/04/18 21:36:00 [DEBUG] vertex provisioner.file (close), got dep: google_compute_instance.hubmud
+2016/04/18 21:36:00 [DEBUG] vertex root.provisioner.local-exec (close): walking
+2016/04/18 21:36:00 [DEBUG] vertex root.provisioner.local-exec (close): evaluating
+2016/04/18 21:36:00 [DEBUG] vertex provisioner.remote-exec (close), got dep: google_compute_instance.hubmud
+2016/04/18 21:36:00 [DEBUG] vertex root.provisioner.remote-exec (close): walking
+2016/04/18 21:36:00 [DEBUG] vertex root.provisioner.remote-exec (close): evaluating
+2016/04/18 21:36:00 [TRACE] [walkApply] Entering eval tree: provisioner.local-exec (close)
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/18 21:36:00 [TRACE] [walkApply] Entering eval tree: provisioner.remote-exec (close)
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/18 21:36:00 [TRACE] [walkApply] Exiting eval tree: provisioner.local-exec (close)
+2016/04/18 21:36:00 [TRACE] [walkApply] Exiting eval tree: provisioner.remote-exec (close)
+2016/04/18 21:36:00 [DEBUG] vertex provider.google (close), got dep: google_compute_instance.hubmud
+2016/04/18 21:36:00 [DEBUG] vertex provider.google (close), got dep: provider.google
+2016/04/18 21:36:00 [DEBUG] vertex root.provisioner.file (close): walking
+2016/04/18 21:36:00 [DEBUG] vertex root.provisioner.file (close): evaluating
+2016/04/18 21:36:00 [TRACE] [walkApply] Entering eval tree: provisioner.file (close)
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalCloseProvisioner
+2016/04/18 21:36:00 [TRACE] [walkApply] Exiting eval tree: provisioner.file (close)
+2016/04/18 21:36:00 [DEBUG] vertex root.provider.google (close): walking
+2016/04/18 21:36:00 [DEBUG] vertex root.provider.google (close): evaluating
+2016/04/18 21:36:00 [TRACE] [walkApply] Entering eval tree: provider.google (close)
+2016/04/18 21:36:00 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/18 21:36:00 [TRACE] [walkApply] Exiting eval tree: provider.google (close)
+2016/04/18 21:36:00 [DEBUG] vertex root, got dep: provider.google (close)
+2016/04/18 21:36:00 [DEBUG] vertex root, got dep: provisioner.local-exec (close)
+2016/04/18 21:36:00 [DEBUG] vertex root, got dep: provisioner.file (close)
+2016/04/18 21:36:00 [DEBUG] vertex root, got dep: provisioner.remote-exec (close)
+2016/04/18 21:36:00 [DEBUG] vertex root.root: walking
+2016/04/18 21:36:00 [DEBUG] waiting for all plugin processes to complete...
+2016/04/18 21:36:00 [DEBUG] /usr/local/terraform_0_6_14/terraform-provisioner-local-exec: plugin process exited
+2016/04/18 21:36:00 [DEBUG] /usr/local/terraform_0_6_14/terraform-provider-google: plugin process exited
+2016/04/18 21:36:00 [DEBUG] /usr/local/terraform_0_6_14/terraform-provisioner-file: plugin process exited
+2016/04/18 21:36:00 [DEBUG] /usr/local/terraform_0_6_14/terraform-provisioner-remote-exec: plugin process exited
