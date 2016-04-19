@@ -1,8 +1,12 @@
-sudo apt-get update
+wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 
-# Install unzip, git, etc.
+# Install unzip, git, jenkins, etc.
+sudo apt-get update
+sudo apt-get -y install jenkins
 sudo apt-get -y install unzip
 sudo apt-get -y install git
+
 
 # Make directories and download and unzip Terraform and Packer
 cd /home/

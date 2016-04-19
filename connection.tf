@@ -1,6 +1,6 @@
 # Configure the Google Cloud provider
 provider "google" {
   credentials = "${file("account.json")}"
-  project     = "adrons-universe"
+  project     = "that-big-universe"
   region      = "us-central1"
 }

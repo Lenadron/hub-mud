@@ -14,7 +14,9 @@ resource "google_compute_instance" "hubmud" {
 
     network_interface {
         network = "default"
-        access_config {}
+        access_config {
+
+        }
     }
 
     provisioner "file" {
