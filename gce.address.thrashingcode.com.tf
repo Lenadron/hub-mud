@@ -27,30 +27,6 @@ resource "google_dns_record_set" "thrashingcodecom_mx" {
     	"10 alt4.aspmx.l.google.com."]
 }
 
-resource "google_dns_record_set" "thrashingcodecom_txt" {
-    managed_zone = "${google_dns_managed_zone.thrashingcodecom.name}"
-    name = "${google_dns_managed_zone.thrashingcodecom.dns_name}"
-    type = "TXT"
-    ttl = 5
-    rrdatas = ["v=spf1 include:_spf.google.com ~all"]
-}
-
-resource "google_dns_record_set" "thrashingcodecom_spf" {
-    managed_zone = "${google_dns_managed_zone.thrashingcodecom.name}"
-    name = "${google_dns_managed_zone.thrashingcodecom.dns_name}"
-    type = "SPF"
-    ttl = 5
-    rrdatas = ["v=spf1 include:_spf.google.com ~all"]
-}
-
-resource "google_dns_record_set" "googledomainkey_thrashingcodecom" {
-    managed_zone = "${google_dns_managed_zone.thrashingcodecom.name}"
-    name = "google._domainkey.${google_dns_managed_zone.thrashingcodecom.dns_name}"
-    type = "TXT"
-    ttl = 5
-    rrdatas = ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFJLcl28yyP+o3zjfLzCvotoNcL15xdM0+7VO/SZO6gaQ+2HPpGKLFbznHMV3XJUZujODlG8Ev1jdpkfEhhD+R39VHwHxOmnkGLl7C4Kfpsb+popsefs4/X/f1w1Rb9A8Co52a45upK2dy80DfG9Cw/93slztnNO+SbLJ/uhYEhQIDAQAB"]
-}
-
 resource "google_dns_record_set" "calendar_thrashingcodecom" {
     managed_zone = "${google_dns_managed_zone.thrashingcodecom.name}"
     name = "calendar.${google_dns_managed_zone.thrashingcodecom.dns_name}"
