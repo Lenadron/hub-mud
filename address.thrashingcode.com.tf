@@ -1,5 +1,4 @@
 # address.thrashingcode.com Domain
-
 resource "google_dns_managed_zone" "thrashingcodecom" {
     name = "thrashingcodecom"
     dns_name = "thrashingcode.com."
