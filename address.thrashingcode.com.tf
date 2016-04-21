@@ -28,6 +28,22 @@ resource "google_dns_record_set" "thrashingcodecom_mx" {
     	"10 alt4.aspmx.l.google.com."]
 }
 
+resource "google_dns_record_set" "thrashingcodecom_txt" {
+    managed_zone = "${google_dns_managed_zone.thrashingcodecom.name}"
+    name = "${google_dns_managed_zone.thrashingcodecom.dns_name}"
+    type = "TXT"
+    ttl = 5
+    rrdatas = ["v=spf1 include:_spf.google.com ~all"]
+}
+
+resource "google_dns_record_set" "thrashingcodecom_spf" {
+    managed_zone = "${google_dns_managed_zone.thrashingcodecom.name}"
+    name = "${google_dns_managed_zone.thrashingcodecom.dns_name}"
+    type = "SPF"
+    ttl = 5
+    rrdatas = ["v=spf1 include:_spf.google.com ~all"]
+}
+
 resource "google_dns_record_set" "googledomainkey_thrashingcodecom" {
     managed_zone = "${google_dns_managed_zone.thrashingcodecom.name}"
     name = "google._domainkey.${google_dns_managed_zone.thrashingcodecom.dns_name}"
