@@ -22,3 +22,6 @@ sudo unzip terraform_0.6.14_linux_amd64.zip
 cd ../packer_0_10_0
 sudo curl -O https://releases.hashicorp.com/packer/0.10.0/packer_0.10.0_linux_amd64.zip
 sudo unzip packer_0.10.0_linux_amd64.zip
+
+cd ~
+mkdir workspace
